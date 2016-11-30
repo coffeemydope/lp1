@@ -1,0 +1,100 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.top_table .top_row .top_cell .top_text h1 {
+		font-size: 1.9em;
+	}
+	.top_table .top_row .top_cell .top_text h1 span {
+		padding: 14px 28px;
+	}
+	.s_resume .left,
+	.s_resume .left h3 {
+		text-align: left;
+	}
+	.s_resume h3 {
+		margin: 10px 0;
+	}
+	.s_resume .resume_icon {
+		margin-bottom: 10px;
+	}
+	.main_footer .social_wrap {
+		padding: 10px 0;
+		text-align: left;
+	}
+	.portfolio_item .port_item_cont h3 {
+		font-size: 10px;
+	}
+	.portfolio_item .port_item_cont p {
+		margin: 5px 0;
+		font-size: 10px;
+	}
+	.portfolio_item .port_item_cont a {
+		padding: 2px 5px;
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width : 360px) {
+	.top_table .top_row .top_cell .top_text h1 span {
+		padding: 14px 15px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.top_table .top_row .top_cell .top_text h1 {
+		font-size: 1.6em;
+	}
+	.top_table .top_row .top_cell .top_text h1 span {
+		padding: 14px 14px 14px 15px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.top_mnu nav {
+		margin-top: -10%
+	}
+	.top_mnu ul {
+		margin-top: 380px;
+	}
+}
